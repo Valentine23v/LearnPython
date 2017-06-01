@@ -26,6 +26,8 @@ for j in range(5,9):
 #可以设定步进值
 for k in range(0,10,3):
     print(k,end=',')
+#空行
+print('')
 #去掉结尾,的一个方法
 print('，'.join(map(str,range(5,10))))
 
